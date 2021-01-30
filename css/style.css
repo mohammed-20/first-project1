@@ -1,0 +1,517 @@
+    /* start main Ruls */
+    
+    .container {
+        width: 1170px;
+        margin: auto;
+    }
+    
+    .clearfix {
+        clear: both;
+    }
+    /* End main Ruls */
+    /* start Header */
+    
+    .header .slider {
+        background-color: #EEE;
+        height: 800px;
+        background-image: url('../slider.jpg');
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    .header .slider .intro {
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 100px;
+    }
+    
+    .header .slider .intro h2 {
+        margin: 0px auto;
+        font-size: 50px;
+        border-top: 4px solid #FFF;
+        border-bottom: 4px solid #FFF;
+        padding: 5px 0;
+    }
+    
+    .header .slider .intro button {
+        background: none;
+        color: black;
+        margin-top: 30px;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    
+    .header .slider .intro button:hover {
+        background-color: black;
+        color: #fff;
+        box-shadow: 0px 0px 20px #000;
+    }
+    
+    .header .navbar {
+        background-color: #252f31;
+        color: #FFF;
+        overflow: hidden;
+    }
+    
+    .header .navbar h2 {
+        float: left;
+        text-transform: uppercase;
+    }
+    
+    .header .navbar h2 span {
+        color: #2ecc71;
+    }
+    
+    .header .navbar ul {
+        float: right;
+        padding-left: 0px;
+        overflow: hidden;
+    }
+    
+    .header .navbar ul li {
+        float: left;
+        padding: 10px;
+        list-style: none;
+    }
+    
+    .header .navbar ul li a {
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .header .navbar ul li .active a,
+    .header .navbar ul li a:hover {
+        color: #30B576
+    }
+    /* start features */
+    
+    .features {
+        overflow: hidden;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    
+    .features .feat {
+        float: left;
+        width: 33.333%;
+        height: 150px;
+    }
+    
+    .features .feat h2 {
+        text-transform: uppercase;
+    }
+    
+    .features .feat p {
+        line-height: 1.7;
+        color: #888;
+    }
+    /*End features */
+    /* start About Me */
+    
+    .About_Me {
+        background-color: #f2f2f2;
+        overflow: hidden;
+    }
+    
+    .About_Me .image {
+        float: left;
+        width: 40%;
+    }
+    
+    .About_Me .image img {
+        width: 100%;
+    }
+    
+    .About_Me .info {
+        float: left;
+        width: 60%;
+    }
+    
+    .About_Me .info h2 {
+        margin: 40px 0 20px 40px;
+        color: #555;
+    }
+    
+    .About_Me .info>p {
+        margin: 0 0 20px 40px;
+        color: #666;
+    }
+    
+    .About_Me .info .hobbies {
+        overflow: hidden;
+        margin: 20px;
+        margin: 20px 0 0 40px;
+    }
+    
+    .About_Me .info .hobbies .contet {
+        float: left;
+        width: 50%;
+        min-height: 100px;
+        overflow: hidden;
+    }
+    
+    .About_Me .info .hobbies>h3 {
+        color: #5555;
+    }
+    
+    .About_Me .info .hobbies .contet .icon {
+        float: left;
+        width: 12%;
+        margin-right: 5%;
+    }
+    
+    .About_Me .info .hobbies .contet .icon img {
+        max-width: 100%;
+        margin: 40px 10px 0 0;
+    }
+    
+    .About_Me .info .hobbies .contet .text {
+        float: left;
+        width: 83%;
+    }
+    /* End About Me */
+    /* start my skills */
+    
+    .my_skills {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+    
+    .my_skills .skills,
+    .my_skills .progress {
+        width: 50%;
+        float: left;
+    }
+    
+    .my_skills .skills h2 {
+        margin: 25px 0 20px 40px;
+        color: #555
+    }
+    
+    .my_skills .skills p {
+        margin: 0 0 10px 40px;
+        line-height: 1.6;
+        color: #666;
+    }
+    
+    .my_skills .skills p:last-of-type {
+        margin: 25px;
+    }
+    
+    .my_skills .skills button {
+        background: none;
+        border: 3px solid #2DCC70;
+        padding: 10PX 30px;
+        color: #2DCC70;
+        margin-left: 40px;
+    }
+    
+    .my_skills .skills .progress .technique {
+        margin-left: 50px;
+    }
+    
+    .my_skills .skills .progress .technique h3 {
+        color: #555;
+    }
+    
+    .technique div {
+        background-color: #f2f2f2;
+        height: 25px;
+    }
+    
+    .technique div span {
+        background-color: #2DCC70;
+        height: 25px;
+        display: block;
+        line-height: 25px;
+        text-align: right;
+        color: #EEE;
+    }
+    /*End my skills */
+    /* start resume */
+    
+    .resume {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .resume h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #666;
+    }
+    
+    .resume p {
+        color: #666;
+        line-height: 1.6;
+        padding: 0 15px;
+    }
+    
+    .resume button {
+        background-color: none;
+        margin: 3px solid #2dcc70;
+        color: #2dcc70;
+        font-weight: bold;
+    }
+    /*End resume */
+    /* start my Education */
+    
+    .my_education {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+    
+    .my_education .exp hr {
+        margin: 20px 0;
+        background-attachment: #999;
+        height: 1px;
+        border: 3px
+    }
+    
+    .my_education .main {
+        width: 50%;
+        float: left;
+        margin-right: 5%;
+    }
+    
+    .my_education .main h2 {
+        margin: 25px 0 20px 40px;
+        color: #555
+    }
+    
+    .my_education .main p {
+        margin: 0 0 10px 40px;
+        line-height: 1.6;
+        color: #666;
+    }
+    
+    .my_education .main p:last-of-type {
+        margin: 25px;
+    }
+    
+    .my_education .exp {
+        width: 45%;
+        float: left;
+    }
+    
+    .my_education .exp h3 {
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    
+    .my_education .exp span {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .my_education .exp span :first-of-type {
+        color: #999;
+    }
+    
+    .my_education .exp .cret span :last-of-type {
+        background-color: #2DCC70;
+        color: #EEE;
+        display: inline-block;
+        padding: 4px 10px;
+    }
+    
+    .my_education .exp hr {
+        margin: 20px 0;
+        background-attachment: #999;
+        height: 1px;
+        border: 3px
+    }
+    
+    .my_education .exp p {
+        line-height: 1.7;
+        color: #777
+    }
+    /*End my Education */
+    /* start Teatimonials */
+    
+    .testimonials {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .testimonials q {
+        font-size: 18px;
+        line-height: 1.8;
+        font-style: italic;
+        color: #777;
+    }
+    
+    .testimonials h3 {
+        border: none;
+        font-style: italic;
+        font-weight: bold;
+        color: #252f31;
+        margin-bottom: 30px;
+    }
+    
+    .testimonials .container ul {
+        text-align: center;
+        padding-right: 20px;
+    }
+    
+    .testimonials .container ul li {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #2dcc70;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .testimonials .container ul .active,
+    .testimonials .container ul li:hover {
+        background-color: #2dcc70;
+    }
+    /*End Teatimonials  */
+    /*start Protfolio */
+    
+    .protfolio {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    
+    .protfolio h2 {
+        color: #777;
+    }
+    
+    .protfolio p {
+        line-height: 1.7;
+        color: #666;
+        margin-bottom: 30px;
+    }
+    
+    .protfolio .our_work {
+        overflow: hidden;
+    }
+    
+    .protfolio .our_work>div {
+        width: 33.33333%;
+        float: left;
+        margin-bottom: 10px;
+    }
+    
+    .protfolio .our_work>div img {
+        /* width: 80%; */
+        margin: 10px;
+        padding: 3px;
+        background-color: #FFF;
+        border: 1px solid #ccc;
+        width: 310px;
+        height: 210px;
+    }
+    /* End Protfolio */
+    /* start Contact */
+    
+    .contact {
+        background-color: #252f31;
+        overflow: hidden;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    
+    .contact h2 {
+        color: #FFF;
+        margin-left: 40px;
+    }
+    
+    .contact p strong {
+        color: #D1D6DA;
+    }
+    
+    .contact p {
+        color: #6a6e71;
+        margin-left: 40px;
+        line-height: 1.7;
+        width: 60%;
+    }
+    
+    .contact .container {
+        display: flex;
+    }
+    
+    .contact .info {
+        margin-right: 5%;
+        width: 50%;
+    }
+    
+    .contact .container .form {
+        width: 45%;
+    }
+    
+    .contact .form label {
+        display: block;
+        color: #D1D6DA;
+        margin: 10px 0;
+    }
+    
+    .contact .container .form>input {
+        background-color: #4B5557;
+        color: #FFF;
+        padding: 10px;
+        border: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .contact .form textarea {
+        background-color: #4B5557;
+        color: #FFF;
+        padding: 10px;
+        border: 0;
+        width: 100%;
+        margin-bottom: 10px;
+        height: 300px;
+    }
+    
+    .contact .container .form .submit {
+        background-color: #191E22;
+        color: #FFF;
+        padding: 10px 20px;
+        border: 0;
+        margin-top: 10px;
+        width: 30%;
+        text-align: center;
+    }
+    /* End Contact */
+    /* start footer */
+    
+    .footer {
+        background-color: #191E22;
+        color: #6A6E71;
+        padding: 20px 0;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .footer span {
+        float: left;
+    }
+    
+    .footer ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 10px 0 0 0;
+        float: right;
+    }
+    
+    .footer ul li {
+        display: inline-block;
+    }
+    
+    .footer ul li img {
+        width: 30px;
+    }
+    /* End footer */
